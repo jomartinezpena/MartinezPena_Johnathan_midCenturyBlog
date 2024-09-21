@@ -1,0 +1,214 @@
+/* remember that style sheets cascade, so whatever is on the bottom will override whats on top. Don't have multiple statements for the same element. Organization and hierarchy are key, start with larger elements and work your way down.
+
+Do they best you can with this, talk with each other and help each other. Most colors and fonts are provided for you. Use adobe color to find the other colors from the sample image.*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+    text-decoration: none;
+}
+
+body { 
+
+background-color:  #CDE3F2;
+border-right: 150px solid #F3994E;
+border-left: 150px solid #F3994E;
+
+
+}
+
+.special-link {
+color: #047F8C;
+}
+
+.unique-link{
+  color: #3A400c;
+}
+
+nav {
+
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+
+    word-spacing: 140px;
+  
+    padding-top: 35px;
+    padding-bottom:40px;
+    padding-right: 15px;
+   padding-left: 15px;
+
+    text-align: center;
+   text-transform: uppercase;
+  border-color: black;
+  border-style: solid 1px;
+
+  
+}
+
+h1{
+
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 37px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  margin-bottom: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+
+h2{ 
+  
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22.5px;
+    color: black;
+
+    margin-top: 1.5%;
+   margin-bottom: 0.5%;
+   
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 25px;
+  }
+
+  
+p {
+
+color: black;
+
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+
+
+margin-top: 1.5%;
+   margin-bottom: 0.5%;
+   
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 25px;
+}
+
+h3 {
+
+  color: #047F8C;
+
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+
+
+  margin-top: 1.5%;
+  margin-bottom: 0.5%;
+  
+   padding-top: 10px;
+   
+   padding-right: 20px;
+   padding-left: 25px;
+
+
+}
+
+.center {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
+}
+
+.centerimg {
+  height: 600px;
+  width: 600px;
+
+  margin-bottom: 0.5%;
+    
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 25px;
+}
+
+.trio {
+  height: 350px;
+  width: 350px;
+
+  margin-bottom: 0.5%;
+    
+     padding-top: 5px;
+     padding-bottom: 10px;
+     padding-left: 25px;
+}
+
+
+
+li {
+  text-transform:lowercase;
+
+
+  font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+
+    padding-left: 60px;
+    list-style-position:inside;
+
+}
+
+footer { 
+  background-color: #04ADBF;
+  text-transform: uppercase;
+  text-align: center;
+
+  margin-top: 1.5%;
+  margin-bottom: 0.5%;
+  
+   padding-top: 20px;
+   padding-bottom: 15px;
+   padding-right: 20px;
+   padding-left: 25px;
+   font-size: 16px;
+   word-spacing: 30px;
+}
+
+#times {
+  font-weight:600;
+  display:inline-block;
+}
+
+
+p.trademark {
+  background-color: #04ADBF;
+  text-transform:lowercase;
+  text-align: center;
+  font-size: 15px;
+  font-weight:400;
+  margin-bottom: 0.5%;
+  
+   padding-top: 25px;
+   padding-bottom: 25px;
+   padding-right: 20px;
+   padding-left: 25px;
+
+}
+
